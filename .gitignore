@@ -3,3 +3,6 @@
 *.o
 *.symvers
 *.order
+*.cmd
+
+.tmp_versions/
