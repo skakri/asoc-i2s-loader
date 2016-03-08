@@ -30,6 +30,8 @@ static struct asoc_simple_card_info snd_rpi_simple_card_info = {
   // .codec = "dmic-codec"?
   .codec = "snd-soc-dummy", // -> snd_soc_dai_link.codec_name
   .platform = "20203000.i2s", // -> snd_soc_dai_link.platform_name
+  // ASoC platform strings can be found in /sys/kernel/debug/asoc/platforms
+
   // Investigate, if we don't need to keep SND_SOC_DAIFMT_CBS_CFS instead
   // of SND_SOC_DAIFMT_CBS_CFM.
   .daifmt = SND_SOC_DAIFMT_I2S | SND_SOC_DAIFMT_NB_NF | SND_SOC_DAIFMT_CBS_CFM,
