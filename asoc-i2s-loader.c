@@ -19,7 +19,9 @@
     N.B. playback vs capture (asoc_simple_card_info.daifmt)
     is determined by the codec choice.
 
-    Updated for kernel 4.4.x+, tested with INMP441 on build #884 (4.4.9+).
+    Updated for kernel 4.4.x+,
+    tested with INMP441 on builds:
+    #884 (4.4.9+), #888 (4.4.11+)
 */
 
 void device_release_callback(struct device *dev) { /* do nothing */ };
